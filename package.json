@@ -1,0 +1,27 @@
+{
+  "name": "daangn-free-alert",
+  "version": "1.0.0",
+  "description": "당근마켓 무료나눔 알림기",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "daangn",
+    "crawler",
+    "alert",
+    "scraper"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^16.4.0",
+    "node-schedule": "^2.1.1",
+    "nodemailer": "^6.9.8",
+    "sqlite3": "^5.1.7"
+  }
+}
